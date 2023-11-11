@@ -1,4 +1,4 @@
-
+#converts the text put in a sample text file into whatsapp format
 file = open("wsap_format.txt", "r+")
 
 s = file.readlines()
@@ -11,7 +11,3 @@ for i in range(len(s)):
 newlis = []
 for x in s:
     newlis.append(x.strip('\n'))
-print(newlis)
-
-
-#print(s)
