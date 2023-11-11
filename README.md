@@ -8,6 +8,7 @@ Before running the program, ensure you have the following:
 - Python installed on your system.
 - Google Chrome browser installed.
 - Appropriate ChromeDriver executable in the system path.
+- A chrome user profile with Whatsapp logged in
 
 Installation
 Clone the repository:
@@ -20,9 +21,11 @@ Navigate to the project directory:
 
 
 Ensure to replace the placeholder paths with the actual paths on your system.
+Ensure the user profile mentioned in the path has whatsapp logged in otherwise the user would have to scan a qr code to login
 
 Usage
-Run the whatsapp_automation.py script to start the WhatsApp automation process 
+Run the whatsapp_automation.py script to start the WhatsApp automation process
+
 
 
 
