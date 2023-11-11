@@ -16,17 +16,17 @@ import csv
 #setting options for startup
 options = Options()
 options.add_argument('--profile-directory=Default')
-options.add_argument("--user-data-dir=C:\\Users\\amanc\\AppData\\Local\\Google\\Chrome\\User Data\\")
+options.add_argument("--user-data-dir=C:path/to/profile")
 
 os.system("")
 os.environ["WDM_LOG_LEVEL"] = "0"
 
 #starting a chromedriver instance
-service=Service('C:\Program Files\Google\Chrome\Application\chrome.exe')
-driver = uc.Chrome(executable_path = 'C:\Program Files\Google\Chrome\Application\chrome.exe', options=options)
+service=Service('path/to/chrome')
+driver = uc.Chrome(executable_path = 'path/to/chrome.exe', options=options)
 
 driver.get('https://web.whatsapp.com')
-#scan the qr code from your whatsapp mobile application
+
 
 #reading numbers off of sample csv file
 rows = []
